@@ -8,3 +8,7 @@ const config = {
 };
 
 export default withMDX(config);
+
+const nextConfig = {
+  output: 'export'
+}
